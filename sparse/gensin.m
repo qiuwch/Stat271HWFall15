@@ -1,7 +1,7 @@
 % generate the sinusoid patches
 A=1;
 sz=[16 16];
-numimg=1e6;
+numimg=1e6; % to compromise the running time with the results, about 5e4 is suggested. 
 omeganorm=1;% high frequency for 1e3, low frequency for 1
 patchsin=zeros(sz(1)*sz(2),numimg);
 
